@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenda Natureza</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header>
+<h1>🌿 Minha Agenda</h1>
+<p id="motivacao"></p>
+</header>
+
+<div class="container">
+<input type="date" id="dataSelecionada">
+<div id="tarefas"></div>
+
+<div class="nova">
+<input type="time" id="hora">
+<input type="text" id="textoTarefa" placeholder="Digite sua tarefa...">
+<label>
+<input type="checkbox" id="recorrente"> Repetir diariamente
+</label>
+<button onclick="adicionarTarefa()">Adicionar</button>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+

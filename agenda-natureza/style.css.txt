@@ -1,0 +1,35 @@
+body {
+font-family: Arial, sans-serif;
+background: #EDE6D6;
+margin: 0;
+color: #344E41;
+}
+
+header {
+background: #A3B18A;
+padding: 20px;
+text-align: center;
+}
+
+.container {
+padding: 20px;
+}
+
+input, button {
+padding: 8px;
+margin: 5px 0;
+}
+
+button {
+background: #588157;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.tarefa {
+background: #F8F9FA;
+padding: 10px;
+margin: 8px 0;
+border-left: 5px solid #588157;
+}
